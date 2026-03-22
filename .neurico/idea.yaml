@@ -1,0 +1,23 @@
+idea:
+  title: Coordination Enhancing Video Game
+  domain: artificial_intelligence
+  hypothesis: 'There exists a video game such that if two people, who have never met,
+    have both played it, they can on average coordinate in another unrelated environment
+    twice as well; AI can be used to design such a game.
+
+    '
+  background:
+    description: 'Is there a video game that if two people, who have never met, have
+      played it, they can on average coordinate in another unrelated environment 2x
+      better? I believe there is, and we should use AI to make it.
+
+      '
+  metadata:
+    author: Ari Holtzman
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/dC7HVD9S8OESdXzEYluK
+    idea_id: coordination_enhancing_video_g_20260322_145306_b5671d84
+    created_at: '2026-03-22T14:53:06.756164'
+    status: submitted
+    github_repo_name: coordination-ai-game-claude
+    github_repo_url: https://github.com/Hypogenic-AI/coordination-ai-game-claude
