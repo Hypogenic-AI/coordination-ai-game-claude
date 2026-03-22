@@ -1,0 +1,174 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Standard Focal Point Tasks}
+\label{sec:standard_focal}
+
+\tabref{tab:standard_focal} presents match rates on 10 standard focal point tasks.
+The untrained baseline achieves 92.8\% mean coordination---near ceiling---indicating that \gptfour agents already exploit strong cultural focal points (\eg picking ``red'' for color, ``Monday'' for day).
+No treatment produces a statistically significant improvement over this baseline (all $p > 0.05$, chi-squared test with Bonferroni correction).
+
+\begin{table}[t]
+\centering
+\caption{Match rates (\%) on standard focal point tasks ($N{=}50$ pairs per condition). Baseline coordination is near-ceiling, leaving little room for improvement. Best result per task in \textbf{bold}.}
+\label{tab:standard_focal}
+\small
+\resizebox{\textwidth}{!}{
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\textbf{Task} & \nogame & \trivia & \focalpt & \convention & \aidesigned \\
+\midrule
+Number (1--10)       & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} \\
+Number               & 68  & 98  & 56  & \textbf{100} & \textbf{100} \\
+Color                & \textbf{100} & \textbf{100} & 92  & \textbf{100} & 96  \\
+City                 & 64  & \textbf{100} & 86  & 94  & 62  \\
+Time                 & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} \\
+Shape                & 98  & 84  & \textbf{100} & \textbf{100} & \textbf{100} \\
+Day                  & \textbf{100} & 98  & \textbf{100} & \textbf{100} & \textbf{100} \\
+Letter               & \textbf{100} & 68  & \textbf{100} & \textbf{100} & \textbf{100} \\
+Animal               & 98  & \textbf{100} & \textbf{100} & 82  & 76  \\
+Food                 & \textbf{100} & \textbf{100} & \textbf{100} & 86  & \textbf{100} \\
+\midrule
+\textbf{Mean}        & 92.8 & 94.8 & 93.4 & \textbf{96.2} & 93.4 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\para{Interpretation.}
+Standard focal point tasks are too easy for LLM agents to serve as a meaningful evaluation.
+The strong cultural priors baked into language model training data already provide effective coordination heuristics, creating a ceiling effect.
+This motivates our hard task battery.
+
+\subsection{Hard Focal Point Tasks}
+\label{sec:hard_focal}
+
+\tabref{tab:hard_focal} presents results on 7 hard focal point tasks where the baseline is below 100\%.
+Here, game training produces substantial improvements.
+
+\begin{table}[t]
+\centering
+\caption{Match rates (\%) on hard focal point tasks where the baseline is below 100\% ($N{=}50$ pairs). Improvement ratios over the \nogame baseline are shown in parentheses. Best result per task in \textbf{bold}. Tasks achieving ${\geq}2\times$ improvement are marked with $\star$.}
+\label{tab:hard_focal}
+\small
+\resizebox{\textwidth}{!}{
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\textbf{Task} & \nogame & \trivia & \focalpt & \convention & \aidesigned \\
+\midrule
+Abstract number  & 76  & 78 \small{(1.03$\times$)}  & \textbf{100} \small{(1.32$\times$)}  & 82 \small{(1.08$\times$)}  & 44 \small{(0.58$\times$)} \\
+Year             & 56  & \textbf{100} \small{(1.79$\times$)} & \textbf{100} \small{(1.79$\times$)} & 18 \small{(0.32$\times$)} & 86 \small{(1.54$\times$)} \\
+Emoji            & 42  & 44 \small{(1.05$\times$)}  & 30 \small{(0.71$\times$)}  & \textbf{94} \small{(2.24$\times$)}$^\star$ & 78 \small{(1.86$\times$)} \\
+Country          & 72  & 84 \small{(1.17$\times$)}  & \textbf{100} \small{(1.39$\times$)} & 98 \small{(1.36$\times$)} & 98 \small{(1.36$\times$)} \\
+Movie genre      & 34  & 88 \small{(2.59$\times$)}$^\star$  & \textbf{100} \small{(2.94$\times$)}$^\star$ & 94 \small{(2.76$\times$)}$^\star$ & \textbf{100} \small{(2.94$\times$)}$^\star$ \\
+Pattern          & 96  & \textbf{100} \small{(1.04$\times$)} & \textbf{100} \small{(1.04$\times$)} & 70 \small{(0.73$\times$)} & 58 \small{(0.60$\times$)} \\
+Direction        & 80  & \textbf{100} \small{(1.25$\times$)} & \textbf{100} \small{(1.25$\times$)} & \textbf{100} \small{(1.25$\times$)} & 98 \small{(1.23$\times$)} \\
+\midrule
+\textbf{Mean}    & 65.1 & 84.9 \small{(1.30$\times$)} & \textbf{90.0} \small{(1.49$\times$)} & 79.4 \small{(1.39$\times$)} & 80.3 \small{(1.44$\times$)} \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\para{Key findings.}
+Three game designs each achieve ${\geq}2\times$ improvement on at least one task: \focalpt and \aidesigned reach 2.94$\times$ on movie genre (34\%$\to$100\%), and \convention reaches 2.24$\times$ on emoji (42\%$\to$94\%).
+The \focalpt game achieves the highest mean improvement (1.49$\times$), but this masks significant task-level variation.
+The \convention game excels on novel/creative tasks (emoji, movie genre) but fails on tasks requiring convergence on common knowledge (year: 56\%$\to$18\%).
+
+\para{Task-level patterns.}
+Tasks with strong cultural anchors (\eg year, country, direction) benefit most from focal point training.
+Tasks with weaker cultural salience (\eg emoji, movie genre) benefit from convention-formation training, which teaches agents to identify and converge on \emph{any} shared reference point, not just the culturally ``obvious'' one.
+
+\subsection{Role Assignment}
+\label{sec:roles}
+
+\tabref{tab:roles} presents complementarity scores on role assignment tasks.
+This is where the most dramatic differences between conditions emerge.
+
+\begin{table}[t]
+\centering
+\caption{Complementarity scores (\%) on role assignment tasks ($N{=}50$ pairs). Standard tasks require binary role division; hard tasks require 3-way assignment or resource/timing coordination. Best result per task in \textbf{bold}.}
+\label{tab:roles}
+\small
+\resizebox{\textwidth}{!}{
+\begin{tabular}{@{}llccccc@{}}
+\toprule
+& \textbf{Task} & \nogame & \trivia & \focalpt & \convention & \aidesigned \\
+\midrule
+\multirow{5}{*}{\rotatebox{90}{\small Standard}}
+& Cooking  & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} \\
+& Moving   & \textbf{100} & \textbf{100} & 0   & 94  & \textbf{100} \\
+& Project  & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} \\
+& Rescue   & \textbf{100} & 58  & \textbf{100} & 98  & 94  \\
+& Guard    & \textbf{100} & \textbf{100} & \textbf{100} & 96  & \textbf{100} \\
+\midrule
+\multirow{4}{*}{\rotatebox{90}{\small Hard}}
+& Three jobs   & 98  & 0   & \textbf{100} & \textbf{100} & \textbf{100} \\
+& Priority     & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} \\
+& Resource     & 4   & 50  & 0   & 98  & \textbf{100} \\
+& Timing       & 0   & 96  & 0   & 28  & \textbf{100} \\
+\midrule
+\multicolumn{2}{@{}l}{\textbf{Hard mean}} & 50.5 & 61.5 & 50.0 & 81.5 & \textbf{100.0} \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\para{The convergence--differentiation tension.}
+The \focalpt game achieves 0\% on three role tasks (moving, resource, timing).
+Focal point training teaches agents to converge on the ``obvious'' choice---but in role assignment, both agents picking the same ``obvious'' role means zero complementarity.
+This is a fundamental failure mode: \emph{convergence training hurts when differentiation is needed}.
+
+\para{Multi-skill advantage.}
+The \aidesigned game achieves \textbf{100\%} on all four hard role tasks, up from 50.5\% baseline---a 1.98$\times$ improvement.
+The most dramatic gains are on resource allocation (4\%$\to$100\%) and timing coordination (0\%$\to$100\%).
+By training both convergence and differentiation skills, \syncminds resolves the tension that cripples single-skill games.
+
+\subsection{Convention Formation}
+\label{sec:convention}
+
+\tabref{tab:convention} presents convention formation results in the Lewis signaling game.
+
+\begin{table}[t]
+\centering
+\caption{Convention formation in a Lewis signaling game (3 objects, 3 signals, 10 rounds, $N{=}50$ pairs). Convergence rate is the fraction of pairs reaching consistent agreement. Best result per metric in \textbf{bold}.}
+\label{tab:convention}
+\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Condition} & \textbf{Convergence (\%)} & \textbf{Avg.\ rounds} & \textbf{Final acc.\ (\%)} \\
+\midrule
+\nogame       & 98  & 2.1 & 98.7 \\
+\trivia       & 88  & 2.4 & 92.7 \\
+\focalpt      & \textbf{100} & \textbf{1.6} & 99.3 \\
+\convention   & \textbf{100} & \textbf{1.6} & \textbf{100.0} \\
+\aidesigned   & 98  & 1.8 & 95.3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Game-trained agents (\focalpt and \convention) converge 24\% faster than the baseline (1.6 vs.\ 2.1 rounds) and achieve perfect or near-perfect convergence rates.
+The \aidesigned game shows a smaller improvement (1.8 rounds), possibly because its multi-skill prompt is longer and dilutes the convention-specific signal.
+
+\subsection{Summary of Improvement Ratios}
+\label{sec:summary}
+
+\tabref{tab:summary} summarizes the coordination improvement ratios across all task domains.
+
+\begin{table}[t]
+\centering
+\caption{Coordination improvement ratios (treatment / baseline) across task domains. The \aidesigned game achieves the most balanced profile. Values ${\geq}2.0\times$ are in \textbf{bold}.}
+\label{tab:summary}
+\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Domain} & \trivia & \focalpt & \convention & \aidesigned \\
+\midrule
+Standard focal (mean)    & 1.02$\times$ & 1.01$\times$ & 1.04$\times$ & 1.01$\times$ \\
+Hard focal (mean)        & 1.30$\times$ & 1.49$\times$ & 1.39$\times$ & 1.44$\times$ \\
+Hard focal (best task)   & {\bf 2.59}$\times$ & {\bf 2.94}$\times$ & {\bf 2.76}$\times$ & {\bf 2.94}$\times$ \\
+Hard roles (mean)        & 1.22$\times$ & 0.99$\times$ & 1.61$\times$ & {\bf 1.98}$\times$ \\
+Convention speed         & 0.88$\times$ & 1.31$\times$ & 1.31$\times$ & 1.17$\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}

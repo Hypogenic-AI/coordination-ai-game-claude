@@ -1,0 +1,89 @@
+{
+  "fp": {
+    "Trivia Game (Control)": {
+      "mean_rate": 0.9480000000000001,
+      "ratio_vs_baseline": 1.0215517241379308,
+      "t_stat": 0.32616403652672105,
+      "p_value": 0.7517566106861254,
+      "cohens_d": 0.10314212462587934,
+      "significant": false
+    },
+    "Focal Point Game": {
+      "mean_rate": 0.9339999999999999,
+      "ratio_vs_baseline": 1.006465517241379,
+      "t_stat": 0.21569651281473382,
+      "p_value": 0.8340333775523969,
+      "cohens_d": 0.06820922638502552,
+      "significant": false
+    },
+    "Convention Formation Game": {
+      "mean_rate": 0.962,
+      "ratio_vs_baseline": 1.0366379310344827,
+      "t_stat": 0.6778343894045649,
+      "p_value": 0.5149230716711058,
+      "cohens_d": 0.21435005469079293,
+      "significant": false
+    },
+    "AI-Designed Coordination Game": {
+      "mean_rate": 0.9339999999999999,
+      "ratio_vs_baseline": 1.006465517241379,
+      "t_stat": 0.14559752435983273,
+      "p_value": 0.8874478595021845,
+      "cohens_d": 0.046041979865892035,
+      "significant": false
+    }
+  },
+  "role": {
+    "Trivia Game (Control)": {
+      "mean_rate": 0.916,
+      "ratio_vs_baseline": 0.916,
+      "t_stat": -1.0,
+      "p_value": 0.37390096630005887
+    },
+    "Focal Point Game": {
+      "mean_rate": 0.8,
+      "ratio_vs_baseline": 0.8,
+      "t_stat": -0.9999999999999999,
+      "p_value": 0.37390096630005887
+    },
+    "Convention Formation Game": {
+      "mean_rate": 0.976,
+      "ratio_vs_baseline": 0.976,
+      "t_stat": -2.0579830217101063,
+      "p_value": 0.10870095132492358
+    },
+    "AI-Designed Coordination Game": {
+      "mean_rate": 0.9879999999999999,
+      "ratio_vs_baseline": 0.9879999999999999,
+      "t_stat": -1.0,
+      "p_value": 0.37390096630005887
+    }
+  },
+  "conv": {
+    "No Game (Baseline)": {
+      "convergence_rate": 0.98,
+      "avg_convergence_round": 2.061224489795918,
+      "final_accuracy": 0.9866666666666667
+    },
+    "Trivia Game (Control)": {
+      "convergence_rate": 0.88,
+      "avg_convergence_round": 2.4318181818181817,
+      "final_accuracy": 0.9266666666666666
+    },
+    "Focal Point Game": {
+      "convergence_rate": 1.0,
+      "avg_convergence_round": 1.62,
+      "final_accuracy": 0.9933333333333333
+    },
+    "Convention Formation Game": {
+      "convergence_rate": 1.0,
+      "avg_convergence_round": 1.58,
+      "final_accuracy": 1.0
+    },
+    "AI-Designed Coordination Game": {
+      "convergence_rate": 0.98,
+      "avg_convergence_round": 1.7551020408163265,
+      "final_accuracy": 0.9533333333333333
+    }
+  }
+}

@@ -1,0 +1,71 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{The Convergence--Differentiation Tension}
+\label{sec:tension}
+
+Our most striking finding is that focal point training---which teaches agents to converge on the same answer---can \emph{destroy} coordination on tasks requiring complementary behavior.
+The \focalpt game drops role assignment to 0\% on moving, resource, and timing tasks, because both agents learn to pick the ``obvious'' role.
+This reveals a fundamental axis of coordination that any training intervention must address: some tasks require matching (focal points), while others require dividing (roles).
+
+The \aidesigned game resolves this tension by explicitly training both skills.
+Its system prompt includes not only focal point identification but also perspective-taking and role differentiation, teaching agents meta-cognitive awareness of \emph{which} coordination strategy to apply.
+The result is 100\% complementarity on all hard role tasks while maintaining competitive focal point performance.
+
+This finding has implications beyond our experimental setup.
+Real-world coordination involves both convergence (\eg agreeing on meeting times, choosing compatible tools) and differentiation (\eg dividing labor, assigning complementary roles).
+Training programs that focus on only one skill may inadvertently harm the other.
+
+\subsection{Why Multi-Skill Training Works}
+\label{sec:multiskill}
+
+The \syncminds game combines four coordination skills:
+(1) focal point identification---recognizing culturally salient choices;
+(2) perspective-taking---predicting what a partner will do;
+(3) role differentiation---choosing complementary rather than identical actions;
+(4) convention formation---building shared protocols through interaction.
+
+We hypothesize that this combination works because it provides agents with a richer \emph{coordination vocabulary}.
+Single-skill games give agents one tool (``converge'' or ``differentiate''); the multi-skill game gives them a toolkit and, crucially, the meta-skill of selecting the right tool for the task.
+
+\subsection{LLMs as Coordination Proxies}
+\label{sec:proxies}
+
+Our use of LLM agents as human proxies enables experiments at a scale (12,000 API calls, 50 pairs $\times$ 31 tasks $\times$ 5 conditions) that would be prohibitively expensive with human participants.
+The approach is motivated by \citet{riedl2026emergent}'s finding that LLM agents exhibit emergent coordination similar to human coordination.
+
+However, LLMs and humans coordinate through different mechanisms.
+LLM coordination is driven by shared training data---cultural knowledge encoded in internet text---while human coordination additionally involves spatial reasoning, emotional salience, and embodied experience.
+The near-ceiling baseline on standard focal point tasks (92.8\%) illustrates this: LLMs have extremely strong cultural priors that make simple coordination trivial.
+
+We view LLM experiments as a \emph{first stage} that identifies promising game designs for subsequent human validation, not as a replacement for human studies.
+
+\subsection{Limitations}
+\label{sec:limitations}
+
+\para{In-context learning vs.\ actual gameplay.}
+We simulate game experience through system prompt descriptions rather than actual interactive gameplay.
+Real games involve procedural learning, emotional engagement, repeated practice, and embodied experience, all of which may produce different (likely stronger) coordination effects.
+Our results should be interpreted as a lower bound on the potential of game-based coordination training.
+
+\para{Temperature sensitivity.}
+All experiments use temperature $= 0.9$.
+Lower temperatures would increase coordination by reducing response diversity (trivially), while higher temperatures might reveal different patterns.
+A systematic temperature sweep would strengthen our conclusions.
+
+\para{Single model.}
+We test only \gptfour.
+Different LLMs have different cultural knowledge distributions and may respond differently to game training prompts.
+Cross-model replication (\eg with Claude, Gemini, or open-source models) is needed to establish generality.
+
+\para{Normalization artifacts.}
+Response matching depends on text normalization.
+Some matches or mismatches may be artifacts of how we process responses (\eg whether ``NY'' and ``New York'' are treated as equivalent).
+
+\para{Sample size.}
+$N{=}50$ pairs per condition provides moderate statistical power.
+Extreme results (0\% or 100\%) should be interpreted with appropriate caution, as they may reflect deterministic behavior at this temperature rather than robust population-level effects.
+
+\para{Control condition variability.}
+The \trivia control sometimes outperforms coordination-specific games on individual tasks (\eg year: 100\% vs.\ baseline 56\%), suggesting that any system prompt can shift LLM coordination patterns.
+This makes it important to interpret treatment effects relative to both the no-game baseline and the active control.

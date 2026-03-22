@@ -1,0 +1,11 @@
+PDF: /workspaces/coordination-ai-game-claude/papers/lipowska2018_linguistic_conventions_marl.pdf
+Total pages: 18
+Pages per chunk: 3
+
+Chunks:
+  lipowska2018_linguistic_conventions_marl_chunk_001.pdf: pages 1-3
+  lipowska2018_linguistic_conventions_marl_chunk_002.pdf: pages 4-6
+  lipowska2018_linguistic_conventions_marl_chunk_003.pdf: pages 7-9
+  lipowska2018_linguistic_conventions_marl_chunk_004.pdf: pages 10-12
+  lipowska2018_linguistic_conventions_marl_chunk_005.pdf: pages 13-15
+  lipowska2018_linguistic_conventions_marl_chunk_006.pdf: pages 16-18

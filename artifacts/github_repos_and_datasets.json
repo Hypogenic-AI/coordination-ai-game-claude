@@ -1,0 +1,206 @@
+{
+  "search_date": "2026-03-22",
+  "description": "GitHub repositories and datasets relevant to Coordination Enhancing Video Games research",
+  "repositories": {
+    "tier1_core_environments": [
+      {
+        "name": "google-deepmind/open_spiel",
+        "url": "https://github.com/google-deepmind/open_spiel",
+        "stars": 5095,
+        "description": "OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games.",
+        "relevance": "HIGH - Comprehensive game theory library with implementations of coordination games, bargaining, signaling games, and more. Directly supports building and testing game-theoretic coordination mechanisms."
+      },
+      {
+        "name": "Farama-Foundation/PettingZoo",
+        "url": "https://github.com/Farama-Foundation/PettingZoo",
+        "stars": 3354,
+        "description": "An API standard for multi-agent reinforcement learning environments, with popular reference environments and related utilities.",
+        "relevance": "HIGH - Standard API for multi-agent environments. Includes cooperative and competitive games. Ideal as an interface layer for our coordination game environments."
+      },
+      {
+        "name": "google-deepmind/concordia",
+        "url": "https://github.com/google-deepmind/concordia",
+        "stars": 1289,
+        "description": "A library for generative social simulation.",
+        "relevance": "HIGH - Generative agent-based social simulation using LLMs. Directly relevant to designing AI-mediated coordination scenarios. Used in NeurIPS 2024 Cooperative AI contest."
+      },
+      {
+        "name": "HumanCompatibleAI/overcooked_ai",
+        "url": "https://github.com/HumanCompatibleAI/overcooked_ai",
+        "stars": 943,
+        "description": "A benchmark environment for fully cooperative human-AI performance.",
+        "relevance": "HIGH - Premier benchmark for human-AI cooperative coordination. Players must coordinate cooking tasks without explicit communication. Includes human gameplay data."
+      },
+      {
+        "name": "google-deepmind/meltingpot",
+        "url": "https://github.com/google-deepmind/meltingpot",
+        "stars": 805,
+        "description": "A suite of test scenarios for multi-agent reinforcement learning.",
+        "relevance": "HIGH - Multi-agent test scenarios including cooperation, competition, and social dilemmas. Excellent for testing coordination strategies among strangers."
+      },
+      {
+        "name": "google-deepmind/hanabi-learning-environment",
+        "url": "https://github.com/google-deepmind/hanabi-learning-environment",
+        "stars": 664,
+        "description": "A research platform for Hanabi experiments.",
+        "relevance": "HIGH - Hanabi requires coordination through implicit communication (giving clues about others' cards). A canonical coordination game where players must develop shared conventions."
+      }
+    ],
+    "tier2_frameworks_and_tools": [
+      {
+        "name": "oTree-org/oTree",
+        "url": "https://github.com/oTree-org/oTree",
+        "stars": 516,
+        "description": "Python framework for multiplayer decision games, behavioral experiments, and surveys.",
+        "relevance": "MEDIUM-HIGH - Platform for running behavioral economics experiments including coordination games. Can be used to deploy human experiments for our research."
+      },
+      {
+        "name": "Stanford-ILIAD/PantheonRL",
+        "url": "https://github.com/Stanford-ILIAD/PantheonRL",
+        "stars": 158,
+        "description": "A package for training and testing multi-agent reinforcement learning environments. Supports cross-play, fine-tuning, ad-hoc coordination.",
+        "relevance": "MEDIUM-HIGH - Specifically supports ad-hoc coordination (coordinating with unseen partners), which is directly relevant to stranger coordination."
+      },
+      {
+        "name": "facebookresearch/translagent",
+        "url": "https://github.com/facebookresearch/translagent",
+        "stars": 81,
+        "description": "Code for Emergent Translation in Multi-Agent Communication.",
+        "relevance": "MEDIUM - Studies emergent language/communication in multi-agent settings. Relevant to understanding how coordination conventions emerge."
+      },
+      {
+        "name": "HumanCompatibleAI/overcooked-demo",
+        "url": "https://github.com/HumanCompatibleAI/overcooked-demo",
+        "stars": 60,
+        "description": "Web application where humans can play Overcooked with AI agents.",
+        "relevance": "MEDIUM - Web-based human-AI interaction demo. Useful reference for building our own web-based coordination games."
+      }
+    ],
+    "tier3_specialized": [
+      {
+        "name": "gdquest-demos/godot-procedural-generation",
+        "url": "https://github.com/gdquest-demos/godot-procedural-generation",
+        "stars": 1806,
+        "description": "Procedural generation algorithms and demos for the Godot game engine.",
+        "relevance": "MEDIUM - Procedural generation techniques applicable to generating varied coordination game levels/scenarios."
+      },
+      {
+        "name": "JingyeChen/awesome-game-generation",
+        "url": "https://github.com/JingyeChen/awesome-game-generation",
+        "stars": null,
+        "description": "Curated list of cutting-edge techniques in game generation including LLM-based approaches.",
+        "relevance": "MEDIUM - Comprehensive survey of game generation techniques. Useful reference for procedural generation of coordination scenarios."
+      },
+      {
+        "name": "travislacroix/demonstrator-game",
+        "url": "https://github.com/travislacroix/demonstrator-game",
+        "stars": 4,
+        "description": "Implementation of an agent-based model extending the Lewis-Skyrms Signaling game with Roth-Erev reinforcement learning.",
+        "relevance": "MEDIUM - Direct implementation of Lewis signaling games, a core theoretical framework for understanding convention formation."
+      },
+      {
+        "name": "maxb00/basic-signaling-games",
+        "url": "https://github.com/maxb00/basic-signaling-games",
+        "stars": 3,
+        "description": "Python implementations of Basic Signaling Games proposed by David Lewis.",
+        "relevance": "MEDIUM - Clean Python implementations of Lewis signaling games for reference."
+      },
+      {
+        "name": "dragon-bot-z/schelling-point",
+        "url": "https://github.com/dragon-bot-z/schelling-point",
+        "stars": 0,
+        "description": "Schelling Point coordination game - find focal points through independent guessing.",
+        "relevance": "MEDIUM - Direct implementation of Schelling focal point games. Small but directly on-topic."
+      },
+      {
+        "name": "vermashresth/sequential_social_dilemma_games",
+        "url": "https://github.com/vermashresth/sequential_social_dilemma_games",
+        "stars": 8,
+        "description": "Code-base for solving Sequential Social Dilemma Game using Multi-Agent RL, motivation and communication.",
+        "relevance": "MEDIUM - Sequential social dilemmas are extended coordination/cooperation problems relevant to game design."
+      },
+      {
+        "name": "liyang619/COLE-Platform",
+        "url": "https://github.com/liyang619/COLE-Platform",
+        "stars": 39,
+        "description": "Overcooked human-AI experiment platform.",
+        "relevance": "MEDIUM - Experimental platform for human-AI coordination studies in Overcooked."
+      },
+      {
+        "name": "Martin-Kugler/multi-action-coordination-game",
+        "url": "https://github.com/Martin-Kugler/multi-action-coordination-game",
+        "stars": 1,
+        "description": "Python engine for the Limited Sum Game, an iterated coordination dilemma. Features tournament simulations and evolutionary dynamics.",
+        "relevance": "MEDIUM - Directly models coordination dilemmas with tournament simulations and DQN agents."
+      }
+    ]
+  },
+  "datasets_and_benchmarks": [
+    {
+      "name": "Overcooked-AI Human Data",
+      "source": "HumanCompatibleAI/overcooked_ai",
+      "url": "https://github.com/HumanCompatibleAI/overcooked_ai",
+      "description": "Human gameplay data collected via MTurk experiments where human pairs played Overcooked together. Includes trajectory data for training human-compatible AI agents.",
+      "relevance": "HIGH - Real human coordination behavior data in a cooperative game setting."
+    },
+    {
+      "name": "MultiAgentBench",
+      "source": "arxiv.org/abs/2503.01935",
+      "url": "https://arxiv.org/abs/2503.01935",
+      "description": "Benchmark for evaluating LLM-based multi-agent systems across collaboration and competition scenarios with milestone-based KPIs.",
+      "relevance": "HIGH - Modern benchmark for evaluating coordination quality in multi-agent LLM systems."
+    },
+    {
+      "name": "ZSC-Eval (Zero-Shot Coordination Evaluation)",
+      "source": "ICLR 2025",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/9d521f48cd3a9b218290a274af16905a-Paper-Conference.pdf",
+      "description": "First evaluation toolkit and benchmark for zero-shot coordination algorithms - training agents to work with diverse, unseen partners.",
+      "relevance": "HIGH - Directly addresses the stranger coordination problem: coordinating without prior experience together."
+    },
+    {
+      "name": "Concordia Contest Scenarios",
+      "source": "google-deepmind/concordia + cooperativeai.com",
+      "url": "https://www.cooperativeai.com/contests/concordia-2024",
+      "description": "NeurIPS 2024 contest scenarios for cooperative LLM agents in text-based social simulation environments.",
+      "relevance": "HIGH - Cooperative AI evaluation scenarios in rich social settings."
+    },
+    {
+      "name": "Melting Pot Evaluation Scenarios",
+      "source": "google-deepmind/meltingpot",
+      "url": "https://github.com/google-deepmind/meltingpot",
+      "description": "Suite of multi-agent test scenarios measuring cooperation, social dilemmas, and coordination in grid-world environments.",
+      "relevance": "HIGH - Standardized scenarios for evaluating coordination among agents."
+    },
+    {
+      "name": "Focal Point Experiment Data (Mehta et al.)",
+      "source": "Academic papers",
+      "url": "https://link.springer.com/article/10.1007/BF01079211",
+      "description": "Classic experimental data on focal points in pure coordination games. Multiple studies with 1000+ participants examining how people coordinate without communication.",
+      "relevance": "HIGH - Foundational data on Schelling focal points and human coordination heuristics."
+    },
+    {
+      "name": "oTree Experiment Templates",
+      "source": "oTree-org/oTree + otreehub.com",
+      "url": "https://www.otreehub.com/projects/?page=8",
+      "description": "Library of standard game theory experiment templates including coordination games, public goods games, and trust games.",
+      "relevance": "MEDIUM - Ready-made experiment templates for running human coordination studies."
+    }
+  ],
+  "key_papers_with_code": [
+    {
+      "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
+      "venue": "ICLR 2025",
+      "relevance": "Multi-agent cooperation in procedural game environments."
+    },
+    {
+      "title": "Multi-Agent Coordination across Diverse Applications: A Survey",
+      "url": "https://arxiv.org/html/2502.14743v2",
+      "relevance": "Comprehensive 2025 survey of multi-agent coordination approaches."
+    },
+    {
+      "title": "Procedural Content Generation in Games: A Survey with Insights on Emerging LLM Integration",
+      "url": "https://arxiv.org/html/2410.15644v1",
+      "relevance": "Survey on PCG including LLM-based approaches for game content generation."
+    }
+  ]
+}

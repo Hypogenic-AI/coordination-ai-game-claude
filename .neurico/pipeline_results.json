@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/coordination-ai-game-claude/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/coordination-ai-game-claude/literature_review.md",
+        "resources_catalog": "/workspaces/coordination-ai-game-claude/resources.md",
+        "papers_dir": "/workspaces/coordination-ai-game-claude/papers",
+        "datasets_dir": "/workspaces/coordination-ai-game-claude/datasets",
+        "code_dir": "/workspaces/coordination-ai-game-claude/code"
+      },
+      "log_file": "/workspaces/coordination-ai-game-claude/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/coordination-ai-game-claude/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 2233.612114429474
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 9196.314038515091,
+      "log_file": "/workspaces/coordination-ai-game-claude/logs/execution_claude.log",
+      "transcript_file": "/workspaces/coordination-ai-game-claude/logs/execution_claude_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/coordination-ai-game-claude"
+}

@@ -1,0 +1,420 @@
+1. Cooperation, psychological game theory, and limitations of rationality in social interaction
+   Authors: A. Colman
+   Year: 2003 | Citations: 380 | Relevance Score: 15
+   PaperId: 4673ef47862458ca218289de3bd75d9132a71295
+   ExternalIds: DOI: 10.1017/S0140525X03000050 | CorpusId: 15246154
+   Abstract: Rational choice theory enjoys unprecedented popularity and influence in the behavioral and social sciences, but it generates intractable problems when applied to socially interactive decisions. In individual decisions, instrumental rationality is defined in terms of expected utility maximization. This becomes problematic in interactive decisions, when individuals have only partial control over the outcomes, because expected utility maximization is undefined in the absence of assumptions about ho
+
+2. The influence of shared mental models on team process and performance.
+   Authors: J. Mathieu, T. Heffner, G. Goodwin, E. Salas et al.
+   Year: 2000 | Citations: 2628 | Relevance Score: 14
+   PaperId: 33d15921c51f911beb1ee8f4eabe7fa43f97dac8
+   ExternalIds: DOI: 10.1037/0021-9010.85.2.273
+   Abstract: [Abstract not available via API]
+
+3. ARMS AND INFLUENCE
+   Authors: T. Schelling
+   Year: 1967 | Citations: 2012 | Relevance Score: 12
+   PaperId: c4a1ff7f04858b2869298b99de53b906361b538f
+   ExternalIds: DOI: 10.2307/j.ctvxkn7f8 | CorpusId: 149220305
+   Abstract: Traditionally, Americans have viewed war as an alternative to diplomacy, and military strategy as the science of victory. Today, however, in our world of nuclear weapons, military power is not so much exercised as threatened. It is,Mr.
+
+4. Games and Information: An Introduction to Game Theory
+   Authors: E. Rasmusen
+   Year: 2006 | Citations: 1065 | Relevance Score: 12
+   PaperId: b19be26f94641d9576eda6bc78a6adccb606bfff
+   ExternalIds: DOI: 10.2307/2233782 | CorpusId: 153622503
+   Abstract: [Abstract not available via API]
+
+5. Time horizon and equilibrium selection in tacit coordination games: Experimental results
+   Authors: S. Berninghaus, Karl-Martin Ehrhart
+   Year: 1998 | Citations: 125 | Relevance Score: 11
+   PaperId: 65877784535d9d2100dc51ec8babd7f81565778a
+   ExternalIds: DOI: 10.1016/S0167-2681(98)00086-9
+   Abstract: [Abstract not available via API]
+
+6. Rational Ritual: Culture, Coordination, and Common Knowledge.
+   Authors: A. Heifetz
+   Year: 2004 | Citations: 444 | Relevance Score: 10
+   PaperId: 06d75df1ca3748c7538555af520fa288f360766d
+   ExternalIds: DOI: 10.1111/J.0013-0133.2004.191_4.X | CorpusId: 153974281
+   Abstract: [Abstract not available via API]
+
+7. The Electronic Mail Game: Strategic Behavior Under "Almost Common Knowledge"
+   Authors: A. Rubinstein
+   Year: 1989 | Citations: 595 | Relevance Score: 10
+   PaperId: 59e2338ac61ce90fa6acae14390243a4edd1ec95
+   ExternalIds: DOI: 10.1017/CBO9780511983474.019 | CorpusId: 15699582
+   Abstract: [Abstract not available via API]
+
+8. Does Far Transfer Exist? Negative Evidence From Chess, Music, and Working Memory Training
+   Authors: G. Sala, F. Gobet
+   Year: 2017 | Citations: 259 | Relevance Score: 9
+   PaperId: 48c8f8a937b1ce0fc8579bc8ef724cb1a5f3e939
+   ExternalIds: DOI: 10.1177/0963721417712760 | CorpusId: 20130923
+   Abstract: Chess masters and expert musicians appear to be, on average, more intelligent than the general population. Some researchers have thus claimed that playing chess or learning music enhances children’s cognitive abilities and academic attainment. We here present two meta-analyses assessing the effect of chess and music instruction on children’s cognitive and academic skills.
+
+9. Group behaviour in tacit coordination games with focal points - an experimental investigation
+   Authors: Stefania Sitzia, Jiwei Zheng
+   Year: 2019 | Citations: 22 | Relevance Score: 9
+   PaperId: 14ba7474aeeffb07610120cdb3e4c7fbe5d55e35
+   ExternalIds: DOI: 10.1016/J.GEB.2019.08.001
+   Abstract: This paper reports an experimental investigation of Schelling's theory of focal points that compares group and individual behaviour. We find that when players' interests are perfectly aligned, groups choose more often the label salient option and achieve higher coordination success than individuals. However, in games with conflict of interest, groups do not always perform better than individuals, especially when the degree of conflict is substantial.
+
+10. Focal points in pure coordination games: An experimental investigation
+   Authors: Judith Mehta, C. Starmer, R. Sugden
+   Year: 1994 | Citations: 197 | Relevance Score: 9
+   PaperId: 35d77169cad8c2c73fa4eb4f146bf051901f6fdb
+   ExternalIds: DOI: 10.1007/BF01079211
+   Abstract: [Abstract not available via API]
+
+11. There's no "I" in team: Effects of cooperative video games on cooperative behavior
+   Authors: Tobias Greitemeyer, C. Cox
+   Year: 2013 | Citations: 90 | Relevance Score: 9
+   PaperId: d306ffc1e809b631a217b3e0c893b5c1ec8ce393
+   ExternalIds: DOI: 10.1002/EJSP.1940
+   Abstract: [Abstract not available via API]
+
+12. Unraveling in Guessing Games: An Experimental Study
+   Authors: R. Nagel
+   Year: 1995 | Citations: 552 | Relevance Score: 8
+   PaperId: 5b4056532b887d31afefcfa32e41b7ac861761f1
+   ExternalIds: CorpusId: 154569440
+   Abstract: [Abstract not available via API]
+
+13. Emergent Communication: Generalization and Overfitting in Lewis Games
+   Authors: Mathieu Rita, Corentin Tallec, Paul Michel, Jean-Bastien Grill et al.
+   Year: 2022 | Citations: 31 | Relevance Score: 8
+   PaperId: 44e567cad44a664ad14540a89c1fb3594390b1c3
+   ExternalIds: ArXiv: 2209.15342 | DOI: 10.48550/arXiv.2209.15342 | CorpusId: 252668738
+   Abstract: Lewis signaling games are a class of simple communication games for simulating the emergence of language. In these games, two agents must agree on a communication protocol in order to solve a cooperative task. Previous work has shown that agents trained to play this game with reinforcement learning tend to develop languages that display undesirable properties from a linguistic point of view (lack of generalization, lack of compositionality, etc).
+
+14. Cooperation, Coordination, and Trust in Virtual Teams: Insights from Virtual Games
+   Authors: M. Korsgaard, A. Picot, R. Wigand, I. Welpe et al.
+   Year: 2010 | Citations: 30 | Relevance Score: 8
+   PaperId: 2ea175199abef48a194d83abd5d9fc6947926437
+   ExternalIds: DOI: 10.1007/978-1-84882-825-4_20 | CorpusId: 27664236
+   Abstract: [Abstract not available via API]
+
+15. THE THEORY OF GLOBAL GAMES ON TEST: EXPERIMENTAL ANALYSIS OF COORDINATION GAMES WITH PUBLIC AND PRIVATE INFORMATION
+   Authors: Frank Heinemann, R. Nagel, Peter Ockenfels
+   Year: 2004 | Citations: 268 | Relevance Score: 8
+   PaperId: 9ae0925aa65179c08c3b13f1fa6c516b080a22e7
+   ExternalIds: DOI: 10.1111/J.1468-0262.2004.00544.X | CorpusId: 17133971
+   Abstract: [Abstract not available via API]
+
+16. Evaluating Team Metrics in Cooperative Video Games
+   Authors: Yvonne A. Farah, M. Dorneich, Stephen B Gilbert
+   Year: 2022 | Citations: 10 | Relevance Score: 8
+   PaperId: 4073567f730a312aeac7e5f012b6eb1bf2d7bcd8
+   ExternalIds: DOI: 10.1177/1071181322661240
+   Abstract: This research aims to understand how cooperative game features lead to teamwork behaviors as a step in developing gamified testbeds where human-human and human-autonomy teaming can be evaluated. Multiplayer video games incorporate features that encourage cooperation and interdependency, making them potential task environments for evaluating team metrics.
+
+17. An 'evolutionary' interpretation of Van Huyck, Battalio, and Beil's experimental results on coordination
+   Authors: Vincent P. Crawford
+   Year: 1991 | Citations: 203 | Relevance Score: 8
+   PaperId: 901df6214b0dd5976fe8f19122af7714c432fc42
+   ExternalIds: DOI: 10.1016/0899-8256(91)90004-X
+   Abstract: [Abstract not available via API]
+
+18. Schelling points on 3D surface meshes
+   Authors: Xiaobai Chen, Abulhair Saparov, Bill Pang, T. Funkhouser
+   Year: 2012 | Citations: 140 | Relevance Score: 7
+   PaperId: 978f97de2925870fdf1c04bf3693925685b44f1a
+   ExternalIds: DOI: 10.1145/2185520.2185525 | CorpusId: 14828545
+   Abstract: [Abstract not available via API]
+
+19. Associating Objects and Their Effects in Video through Coordination Games
+   Authors: Erika Lu, Forrester Cole, Weidi Xie, Tali Dekel et al.
+   Year: 2022 | Citations: 8 | Relevance Score: 7
+   PaperId: acf6214d720cd641ea83d37ff341b5c414bfd519
+   ExternalIds: DOI: 10.52202/068431-1961 | CorpusId: 254629118
+   Abstract: We explore a feed-forward approach for decomposing a video into layers, where each layer contains an object of interest along with its associated shadows, reflections, and other visual effects. This problem is challenging since associated effects vary widely with the 3D geometry and lighting conditions in the scene, and ground-truth labels for visual effects are difficult (and in some cases impractical) to collect. We take a self-supervised approach and train a neural network to produce a foregr
+
+20. Robert Aumann ’ s and Thomas Schelling ’ s Contributions to Game Theory : Analyses of Conflict and Cooperation
+   Authors: Robert Aumann 's, Thomas Schelling 's, John von Neumann, O. Morgenstern et al.
+   Year: 2005 | Citations: 18 | Relevance Score: 7
+   PaperId: da36bc8c9b2a200307a5539d79df6c15e837a3e0
+   ExternalIds: CorpusId: 15775963
+   Abstract: [Abstract not available via API]
+
+21. Evolutionary dynamics of Lewis signaling games: signaling systems vs. partial pooling
+   Authors: Simon M. Huttegger, B. Skyrms, Rory Smead, Kevin J. S. Zollman
+   Year: 2007 | Citations: 94 | Relevance Score: 7
+   PaperId: 787dec7bb456b4d6c22c85d186ea93b018d8f06e
+   ExternalIds: DOI: 10.1007/s11229-009-9477-0 | CorpusId: 16737294
+   Abstract: Transfer of information between senders and receivers, of one kind or another, is essential to all life. David Lewis introduced a game theoretic model of the simplest case, where one sender and one receiver have pure common interest. How hard or easy is it for evolution to achieve information transfer in Lewis signaling?.
+
+22. Numerical Simulations of the Lewis Signaling Game: Learning Strategies, Pooling Equilibria, and the Evolution of Grammar
+   Authors: J. Barrett
+   Year: 2006 | Citations: 72 | Relevance Score: 7
+   PaperId: addc27e5f748221081b363785fd83bbcc6a70fb6
+   ExternalIds: CorpusId: 59687141
+   Abstract: [Abstract not available via API]
+
+23. On salience and signaling in sender–receiver games: partial pooling, learning, and focal points
+   Authors: Travis LaCroix
+   Year: 2018 | Citations: 12 | Relevance Score: 7
+   PaperId: c051d4dbd69c7e00c11fb64389a3618d4c320cfe
+   ExternalIds: DOI: 10.1007/s11229-018-1766-z | CorpusId: 46977950
+   Abstract: [Abstract not available via API]
+
+24. Simulation-based training in cardiology: State-of-the-art review from the French Commission of Simulation Teaching (Commission d'enseignement par simulation-COMSI) of the French Society of Cardiology.
+   Authors: T. Pezel, A. Coisne, G. Bonnet, R. Martins et al.
+   Year: 2021 | Citations: 33 | Relevance Score: 7
+   PaperId: 325c9436fdd95527602a453cb097e57f3e477606
+   ExternalIds: DOI: 10.1016/j.acvd.2020.10.004 | CorpusId: 231302175
+   Abstract: In our healthcare system, mindful of patient safety and the reduction of medical errors, simulation-based training has emerged as the cornerstone of medical education, allowing quality training in complete safety for patients. Initiated by anaesthesiologists, this teaching mode effectively allows a gradual transfer of learning, and has become an essential tool in cardiology teaching. Cardiologists are embracing simulation to master complex techniques in interventional cardiology, to manage crisi
+
+25. Multi-domain training in healthy old age: Hotel Plastisse as an iPad-based serious game to systematically compare multi-domain and single-domain training
+   Authors: J. Binder, J. Zöllig, A. Eschen, S. Mérillat et al.
+   Year: 2015 | Citations: 37 | Relevance Score: 7
+   PaperId: 5070329620ff65e86add7b76147154c55aea2a89
+   ExternalIds: DOI: 10.3389/fnagi.2015.00137 | CorpusId: 6835641
+   Abstract: Finding effective training interventions for declining cognitive abilities in healthy aging is of great relevance, especially in view of the demographic development. Since it is assumed that transfer from the trained to untrained domains is more likely to occur when training conditions and transfer measures share a common underlying process, multi-domain training of several cognitive functions should increase the likelihood of such an overlap. In the first part, we give an overview of the litera
+
+26. A Serious Game using Physiological Interfaces for Emotion regulation Training in the Context of Financial Decision-Making
+   Authors: Petar Jerčić, Philipp J. Astor, M. Adam, O. Hilborn
+   Year: 2012 | Citations: 57 | Relevance Score: 7
+   PaperId: 73b6587c320f2ccb5cefae6c6eebdde9ad73bb33
+   ExternalIds: CorpusId: 14866121
+   Abstract: [Abstract not available via API]
+
+27. Serious Games Analytics: Theoretical Framework
+   Authors: C. S. Loh, Yanyan Sheng, Dirk Ifenthaler
+   Year: 2015 | Citations: 162 | Relevance Score: 7
+   PaperId: 79ce58b66dc578f71f35c500d33570549a91d7c8
+   ExternalIds: DOI: 10.1007/978-3-319-05834-4_1 | CorpusId: 60126733
+   Abstract: [Abstract not available via API]
+
+28. Dementia Games: A Literature Review of Dementia-Related Serious Games
+   Authors: S. McCallum, Costas Boletsis
+   Year: 2013 | Citations: 130 | Relevance Score: 7
+   PaperId: a934b0049e05706a3396d9577b239379a22558cf
+   ExternalIds: DOI: 10.1007/978-3-642-40790-1_2 | CorpusId: 7753538
+   Abstract: [Abstract not available via API]
+
+29. What Makes a Strong Team?: Using Collective Intelligence to Predict Team Performance in League of Legends
+   Authors: Young Ji Kim, David Engel, A. Woolley, J. Lin et al.
+   Year: 2017 | Citations: 140 | Relevance Score: 7
+   PaperId: 3bd8390ee80f51acbae03ac9351540070cce1960
+   ExternalIds: DOI: 10.1145/2998181.2998185
+   Abstract: [Abstract not available via API]
+
+30. Toward Genuine Robot Teammates: Improving Human-Robot Team Performance Using Robot Shared Mental Models
+   Authors: Felix Gervits, Dean Thurston, Ravenna Thielstrom, T. Fong et al.
+   Year: 2020 | Citations: 45 | Relevance Score: 7
+   PaperId: 05d8ea4a9f2b5b10dccc8c65e6a978c28f195a25
+   ExternalIds: DOI: 10.65109/fvqv5076
+   Abstract: Effective coordination is a critical requirement for human teaming, and is increasingly needed in teams of humans and robots. Building on decades of work in the behavioral literature, we have implemented a computational framework for coordination based on Shared Mental Models (SMMs) in which robots use a distributed knowledge base to coordinate activity.
+
+31. Model-free conventions in multi-agent reinforcement learning with heterogeneous preferences
+   Authors: R. Koster, Kevin R. McKee, Richard Everett, Laura Weidinger et al.
+   Year: 2020 | Citations: 26 | Relevance Score: 7
+   PaperId: 6d6e20f80846bbaf0a12625376118f8c3d60d192
+   ExternalIds: ArXiv: 2010.09054
+   Abstract: Game theoretic views of convention generally rest on notions of common knowledge and hyper-rational models of individual behavior. However, decades of work in behavioral economics have questioned the validity of both foundations. Here, we demonstrate that complex, large-scale conventions can emerge from MF learning mechanisms.
+
+32. Focal points and payoff information in tacit bargaining
+   Authors: Andrea Isoni, Anders U. Poulsen, R. Sugden, Kei Tsutsui
+   Year: 2019 | Citations: 30 | Relevance Score: 7
+   PaperId: e21eefcb0c1ec6cad5ea308b9a2dad2d5629058f
+   ExternalIds: DOI: 10.1016/J.GEB.2019.01.008
+   Abstract: Schelling proposed that payoff-irrelevant cues can affect the outcome of tacit bargaining games by creating focal points. Tests of this hypothesis have found that conflicts of interest between players inhibit focal-point reasoning.
+
+33. Endogenous Communication and Tacit Coordination in Market Entry Games
+   Authors: O. Andersson, H. Holm
+   Year: 2010 | Citations: 15 | Relevance Score: 7
+   PaperId: ea0166041fda81e98133b901888d1776747f9332
+   ExternalIds: DOI: 10.1016/J.IJINDORG.2009.11.003
+   Abstract: [Abstract not available via API]
+
+34. Thomas Schelling's Contributions to Game Theory
+   Authors: A. Dixit
+   Year: 2006 | Citations: 33 | Relevance Score: 6
+   PaperId: 32c27c3cf6283020721ef9d69b6bf397c929c198
+   ExternalIds: DOI: 10.1111/J.1467-9442.2006.00447.X | CorpusId: 154449005
+   Abstract: [Abstract not available via API]
+
+35. A theory of focal points in 2 × 2 games
+   Authors: Jonathan W. Leland, Mark Schneider
+   Year: 2018 | Citations: 6 | Relevance Score: 6
+   PaperId: 8c4fb645678dc9027d81fe3f2a17e4545e6051d8
+   ExternalIds: DOI: 10.1016/J.JOEP.2018.03.002 | CorpusId: 158450437
+   Abstract: Since the classic work of Schelling, the notion of a focal point has been widely applied to explain coordinated behavior. However, focal points remain largely outside the formal apparatus of game theory. This paper develops a model of play in 2 × 2 games where payoff differences determine what strategy players will perceive as “salient” and choose to play.
+
+36. The “Double Empathy Problem”: Direct and Indirect Communication Modeled Using Lewis Signaling Games
+   Authors: Lana Frankle
+   Year: 2023 | Citations: 0 | Relevance Score: 6
+   PaperId: 4b83026c73856581367301d08251b85322eb3b6d
+   ExternalIds: CorpusId: 262040180
+   Abstract: [Abstract not available via API]
+
+37. SIGNALING CONVENTIONS: WHO LEARNS WHAT WHERE AND WHEN IN A SOCIAL NETWORK?
+   Authors: Roland Mühlenbernd, M. Franke
+   Year: 2012 | Citations: 23 | Relevance Score: 6
+   PaperId: 77e24ca128173f40d2ffe32f0e9b39d8f5535124
+   ExternalIds: DOI: 10.1142/9789814401500_0032 | CorpusId: 52829752
+   Abstract: [Abstract not available via API]
+
+38. Signals: Evolution, Learning, and Information
+   Authors: B. Skyrms
+   Year: 2010 | Citations: 219 | Relevance Score: 6
+   PaperId: aad3d8bb0fdc938ff3bacea482008480ff732dd0
+   ExternalIds: CorpusId: 220921423
+   Abstract: [Abstract not available via API]
+
+39. David Lewis in the Lab: an Experimental Study of Signaling Convention
+   Authors: Justin P. Bruner, Cailin O’Connor, Hannah Rubin, Simon M. Huttegger
+   Year: 2014 | Citations: 4 | Relevance Score: 6
+   PaperId: b425e3354b4abbf2dad257586f3459392d067d4e
+   ExternalIds: CorpusId: 148530867
+   Abstract: [Abstract not available via API]
+
+40. Evolution of Coordination as a Metaphor for Learning in Multi-Agent Systems
+   Authors: A. Bazzan
+   Year: 1996 | Citations: 22 | Relevance Score: 6
+   PaperId: 0d43840cc70ae7b868ba4658554c05cededf7941
+   ExternalIds: DOI: 10.1007/3-540-62934-3_45 | CorpusId: 2367782
+   Abstract: [Abstract not available via API]
+
+41. An Experimental Investigation of Focal Points in Coordination and Bargaining: Some Preliminary Results
+   Authors: Judith Mehta, C. Starmer, R. Sugden
+   Year: 1992 | Citations: 24 | Relevance Score: 6
+   PaperId: 137adb043aba8698f3497cfb81e379e8773bd5a6
+   ExternalIds: DOI: 10.1007/978-94-011-2838-4_24 | CorpusId: 115620111
+   Abstract: [Abstract not available via API]
+
+42. The logic of indirect speech
+   Authors: S. Pinker, M. Nowak, James J. Lee
+   Year: 2008 | Citations: 342 | Relevance Score: 6
+   PaperId: 33033892d02d2b22e863fce6fae28f9b3006208a
+   ExternalIds: DOI: 10.1073/pnas.0707192105 | CorpusId: 217137
+   Abstract: [Abstract not available via API]
+
+43. Rational Choice: A Survey of Contributions from Economics and Philosophy
+   Authors: R. Sugden
+   Year: 1991 | Citations: 442 | Relevance Score: 6
+   PaperId: 5c50c33624e2d0c655e266b7f73cd5026f730401
+   ExternalIds: DOI: 10.2307/2233854 | CorpusId: 153701462
+   Abstract: [Abstract not available via API]
+
+44. Intelligence Disclosure and Cooperation in Repeated Interactions
+   Authors: Marco Lambrecht, E. Proto, A. Rustichini, A. Sofianos
+   Year: 2024 | Citations: 7 | Relevance Score: 6
+   PaperId: e04a59795379631fb5e9c090c9b2497e2c93e31d
+   ExternalIds: DOI: 10.2139/ssrn.3953008 | CorpusId: 244383113
+   Abstract: How does information about players’ intelligence affect strategic behavior? Game theory, based on the assumption of common knowledge of rationality, does not provide useful predictions. We experimentally show that, in the Prisoner’s Dilemma, disclosure hampers cooperation: higher-intelligence players trust their partners less when playing against someone of lower ability. Similarly, in the Battle of Sexes with low payoff inequality, disclosure disrupts coordination, as higher-intelligence player
+
+45. Are serious video games something more than a game? A review on the effectiveness of serious games to facilitate intergenerational learning
+   Authors: Antonia Ypsilanti, A. Vivas, Teppo Räisänen, Matti Viitala et al.
+   Year: 2014 | Citations: 46 | Relevance Score: 6
+   PaperId: 01e373103b5d5b363cba6bc3989c7a86cb3a0d0d
+   ExternalIds: DOI: 10.1007/s10639-014-9325-9 | CorpusId: 17959325
+   Abstract: [Abstract not available via API]
+
+46. Transferable Skills: Modding Magic Maze Into a Serious Game for Engineering Education Training
+   Authors: Ana Pinto, Soraia Oliveira, Micael Sousa, Carla Carvalho
+   Year: 2025 | Citations: 1 | Relevance Score: 6
+   PaperId: 1cd65dd6a5a13fc0dc13f1d6299d17557d3ffe74
+   ExternalIds: DOI: 10.1109/CISPEE64787.2025.11124145 | CorpusId: 280693935
+   Abstract: As engineering education evolves, the need to cultivate transferable skills like teamwork and communication has become as crucial as technical expertise. This study explores the potential of the modern board game Magic Maze as a game-based learning tool to develop transferable among engineering students, an approach rarely examined in this context. Conducted with 74 students at a Portuguese university, the study assessed the collaborative gameplay on key skills such as leadership, empathy, and a
+
+47. People with Disabilities Leading the Design of Serious Games and Virtual Worlds
+   Authors: Yurgos Politis, Nigel Robb, Anita Yakkundi, K. Dillenburger et al.
+   Year: 2017 | Citations: 27 | Relevance Score: 6
+   PaperId: 5c165a29a7a6b105a6c290c3e0fb342ef2b90bf3
+   ExternalIds: DOI: 10.17083/ijsg.v4i2.160 | CorpusId: 19826096
+   Abstract: Games and virtual worlds have many potential benefits for people with intellectual disabilities (ID) and autism spectrum disorder (ASD), in terms of training, education, and rehabilitation. However, because this population presents a wide range of specific needs and abilities, it can be difficult to design games which are engaging and present optimum levels of challenge to players. By including individuals with ID and ASD in the design phase we can help meet their specific needs and preferences 
+
+48. A serious game for teaching the fundamentals of ISO/IEC/IEEE 29148 systems and software engineering - Lifecycle processes - Requirements engineering at undergraduate level
+   Authors: I. García, C. Pacheco, Andrés León, J. Calvo-Manzano
+   Year: 2020 | Citations: 60 | Relevance Score: 6
+   PaperId: 60106718a2834f858a5755a3132f6f5eac78b4e9
+   ExternalIds: DOI: 10.1016/j.csi.2019.103377 | CorpusId: 202776275
+   Abstract: Abstract In the context of software engineering education, there is a recurrent demand for new approaches and techniques that support the application and transfer of knowledge to real-life situations with the aim of encouraging a more active learning among students. In particular, serious games have recently become an important learning resource for teaching the fundamentals of software process standards at undergraduate level. However, poor effort has been made to create a serious game that sup
+
+49. Developing self-management and teamwork using digital games in 3D simulations
+   Authors: José Cela-Ranilla, Francesc M. Esteve-Mon, Vanessa Esteve-Gonzalez, Mercè Gisbert-Cervera
+   Year: 2014 | Citations: 17 | Relevance Score: 6
+   PaperId: 63af372b732cba67a7005d0a24be2b2e892514c5
+   ExternalIds: DOI: 10.14742/AJET.754 | CorpusId: 264228418
+   Abstract: Emerging technologies are providing opportunities for designing new learning environments, especially environments in which students can learn by putting their skills into practice. Knowledge about the development of these experiences needs to be accumulated and processed so that they can be integrated effectively into training programmes. In this study we describe how transferable skills such as self-management and teamwork have been developed by 70 Spanish students of Education and Marketing.
+
+50. No transfer between conditions in balance training regimes relying on tasks with different postural demands: Specificity effects of two different serious games.
+   Authors: Tim Naumann, Stefan Kindermann, M. Joch, J. Munzert et al.
+   Year: 2015 | Citations: 35 | Relevance Score: 6
+   PaperId: 698cd0e71997e2fb9e1a95fb2e1da9fac9fa84c1
+   ExternalIds: DOI: 10.1016/j.gaitpost.2015.02.003 | CorpusId: 45322396
+   Abstract: [Abstract not available via API]
+
+51. Using Serious Game Technology to Improve Aircrew Training
+   Authors: Dr. Tricia Mautone
+   Year: 2008 | Citations: 26 | Relevance Score: 6
+   PaperId: d1319294d721c0a5033c688de6e2be5b4cf90963
+   ExternalIds: CorpusId: 264740145
+   Abstract: [Abstract not available via API]
+
+52. Serious games may improve physician heuristics in trauma triage
+   Authors: D. Mohan, Baruch Fischhoff, D. Angus, M. Rosengart et al.
+   Year: 2018 | Citations: 41 | Relevance Score: 6
+   PaperId: f6345899e28ab1a0bd87729d36ba9c9e6fbb42b1
+   ExternalIds: DOI: 10.1073/pnas.1805450115 | CorpusId: 52099474
+   Abstract: Significance Americans can expect to experience at least one meaningful diagnostic medical error in their lifetime. One plausible source of those errors is physicians’ reliance on heuristics that are generally useful but can fail in diagnostically challenging situations. Based on previous research and clinical experience, we identified heuristics that might cause diagnostic errors in trauma triage.
+
+53. A Usability Study of a Serious Game in Cognitive Rehabilitation: A Compensatory Navigation Training in Acquired Brain Injury Patients
+   Authors: M. V. D. van der Kuil, J. Visser-Meily, A. Evers, I. V. D. van der Ham
+   Year: 2018 | Citations: 45 | Relevance Score: 6
+   PaperId: faaef3138daaa7b9e5b0c65cd9726c6f89cf54da
+   ExternalIds: DOI: 10.3389/fpsyg.2018.00846 | CorpusId: 46930882
+   Abstract: Acquired brain injury patients often report navigation impairments. A cognitive rehabilitation therapy has been designed in the form of a serious game. The aim of the serious game is to aid patients in the development of compensatory navigation strategies by providing exercises in 3D virtual environments on their home computers.
+
+54. Stake size and the power of focal points in coordination games: Experimental evidence
+   Authors: Melanie Parravano, Odile Poulsen
+   Year: 2015 | Citations: 33 | Relevance Score: 6
+   PaperId: 7fa3a86327f5e25040e8c44061e41f90d8696cad
+   ExternalIds: DOI: 10.1016/j.geb.2015.05.001
+   Abstract: We collect data from symmetric and asymmetric coordination games with a focal point and vary the stake size. The data show that in symmetric games coordination on the label-salient strategy increases with stake size.
+
+55. Overcoming coordination failure in games with focal points: An experimental investigation
+   Authors: David Rojo Arjona, Stefania Sitzia, Jiwei Zheng
+   Year: 2022 | Citations: 2 | Relevance Score: 6
+   PaperId: 977cd8234921c5a74b881ed4378747b7efe68df5
+   ExternalIds: DOI: 10.1016/j.geb.2022.10.010
+   Abstract: We experimentally test whether increasing the salience of payoff-irrelevant focal points (Schelling, 1960) can counteract the negative impact of conflicts of interest on coordination.
+
+56. Dynamic focal points in N-person coordination games
+   Authors: F. Kramarz
+   Year: 1996 | Citations: 36 | Relevance Score: 6
+   PaperId: 96e071a14c579313ad02dfb4a705fe7761195b61
+   ExternalIds: DOI: 10.1007/BF00134211
+   Abstract: [Abstract not available via API]
+
+57. Toward a Framework for Characterizing Teaming Difficulties in Cooperative Video Games
+   Authors: Ziyu Li, Erik Harpstead
+   Year: 2025 | Citations: 0 | Relevance Score: 6
+   PaperId: be9730cb18cdbe95cf35dd93a6fe6f89f70fdb72
+   ExternalIds: DOI: 10.1609/aaaiss.v5i1.35565
+   Abstract: Current HAT research lacks a consistent framework for analyzing task environments. Drawing from cooperative game studies and team cognition, we propose a preliminary framework defining seven independent and two dependent dimensions to structure HAT task analysis.
+
+58. Evaluating the Consistency of Cooperative Video Games in Inducing Teamwork Behaviors
+   Authors: Yvonne A. Farah, Antonio Banuelos-Moriel, M. Dorneich
+   Year: 2023 | Citations: 3 | Relevance Score: 6
+   PaperId: ca077f4d49152c07d25623c4ef81c21dc3d14150
+   ExternalIds: DOI: 10.1177/21695067231196239
+   Abstract: Teamwork assessment requires research environments that replicate the task complexity and induce challenges and uncertainty. Gamified environments are gaining attention as suitable environments for teamwork assessment.
+
+59. Promoting Human-Robot Team Effectiveness: Shared Mental Models and Communication Improve Team Situation Awareness and Performance
+   Authors: Arsha Ali, Jonathon M. Smereka, Kayla Riegner, L. Robert et al.
+   Year: 2026 | Citations: 0 | Relevance Score: 6
+   PaperId: 34a233ae6024d77978bb0001331a0f881861aac7
+   ExternalIds: DOI: 10.1109/ACCESS.2026.3653446
+   Abstract: Human-robot teaming can benefit many domains. Teams with sufficient team situation awareness may better accomplish their goals, but team situation awareness can be challenging to develop and maintain.
+
+60. Unlocking team performance: How shared mental models drive proactive problem-solving
+   Authors: Michela Carraro, Andrea Furlan, Torbjorn Netland
+   Year: 2024 | Citations: 11 | Relevance Score: 6
+   PaperId: 422c3079c17e662000f36e6d4222ee0c5dc1af18
+   ExternalIds: DOI: 10.1177/00187267241247962
+   Abstract: Do shared mental models support proactive problem-solving? Research on shared cognition suggests that shared mental models aid team performance by improving coordination between team members' actions.
+

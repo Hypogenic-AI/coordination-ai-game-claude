@@ -1,0 +1,101 @@
+\section{Methodology}
+\label{sec:method}
+
+We study whether individual game experience transfers coordination skills to unrelated tasks with new partners.
+Our experimental design pairs LLM agents from the same treatment condition and evaluates their ability to independently coordinate on tasks they have not seen during training.
+
+\subsection{Experimental Conditions}
+\label{sec:conditions}
+
+We compare five conditions, summarized in \tabref{tab:conditions}.
+
+\begin{table}[t]
+\centering
+\caption{Experimental conditions. Each condition provides a different ``game experience'' via the agent's system prompt. The AI-Designed game (\syncminds) combines all four coordination skills.}
+\label{tab:conditions}
+\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Condition} & \textbf{Game} & \textbf{Skills Trained} & \textbf{Purpose} \\
+\midrule
+\nogame & None & None & Baseline \\
+\trivia & \brainquest & None (irrelevant) & Active control \\
+\focalpt & \mindmatch & Focal point identification & Single-skill \\
+\convention & \signalcraft & Convention formation & Single-skill \\
+\aidesigned & \syncminds & All four skills & Multi-skill \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\para{Baseline (\nogame).}
+Agents receive no game context, establishing raw LLM coordination ability.
+
+\para{Active control (\trivia).}
+Agents are told they have played \brainquest, a trivia game with no coordination component.
+This controls for the effect of having \emph{any} game experience in the system prompt.
+
+\para{Focal point game (\focalpt).}
+Agents are given experience with \mindmatch, a game that trains identification of culturally salient choices---the ``obvious'' answer that a stranger would also pick.
+
+\para{Convention game (\convention).}
+Agents are given experience with \signalcraft, a game that trains formation of arbitrary shared conventions through repeated interaction.
+
+\para{AI-designed multi-skill game (\aidesigned).}
+Agents are given experience with \syncminds, a game designed by \gptfour to maximize coordination transfer.
+\syncminds combines four coordination skills: focal point identification, perspective-taking (\tom), role differentiation, and convention formation.
+The key design insight is that effective coordination requires both \emph{convergence} (matching your partner) and \emph{differentiation} (complementing your partner), and the game explicitly trains both.
+
+\subsection{Evaluation Tasks}
+\label{sec:tasks}
+
+We evaluate coordination transfer on 31 tasks across three domains.
+
+\para{Focal point tasks (22 tasks).}
+Two agents independently choose a response to an open-ended prompt (\eg ``pick a number'' or ``pick a city'').
+Coordination succeeds when both agents choose the same answer.
+We include 10 \emph{standard} tasks with strong cultural focal points (\eg pick-a-color, pick-a-day) and 12 \emph{hard} tasks with larger option spaces or weaker salience (\eg pick-a-number from 1--1000, pick-an-emoji, pick-a-movie-genre).
+
+\para{Role assignment tasks (9 tasks).}
+Two or three agents must independently choose \emph{different} roles from a set of options (\eg cook vs.\ server, or three-way job assignment).
+Coordination succeeds when agents adopt complementary, non-overlapping roles.
+We include 5 standard binary-choice tasks and 4 hard tasks with 3-way assignment, resource allocation, and timing coordination.
+
+\para{Convention formation (1 task).}
+A Lewis signaling game~\citep{lipowska2018emergence}: two agents must develop a shared mapping between 3 objects and 3 signals over 10 rounds, receiving only success/failure feedback.
+We measure convergence rate, average rounds to convergence, and final accuracy.
+
+\subsection{Agent Setup}
+\label{sec:agents}
+
+We use \gptfour as the base model for all agents, following \citet{riedl2026emergent}'s validation of LLM agents as coordination proxies.
+
+\para{Simulation of game experience.}
+We encode ``having played a game'' by including a description of the game experience in each agent's system prompt.
+This is analogous to how game experience would be encoded in a human player's memory and decision-making heuristics---the agent ``remembers'' the strategies and skills learned during gameplay.
+
+\para{Independence.}
+Within each pair, agents receive independent random seeds and have no access to each other's responses.
+All coordination must be tacit: agents cannot communicate during the evaluation tasks.
+
+\para{Hyperparameters.}
+We set temperature $= 0.9$ (high enough for response diversity while maintaining coherent responses), max tokens $= 50$, and random seed $= 42$.
+Each condition--task combination is evaluated with $N{=}50$ independent agent pairs, yielding approximately 12,000 total API calls across all conditions and tasks.
+
+\para{Response normalization.}
+Agent responses are normalized for comparison: case folding, whitespace trimming, and common synonym resolution (\eg ``New York'' $\to$ ``new york'', ``NYC'' $\to$ ``new york'').
+
+\subsection{Evaluation Metrics}
+\label{sec:metrics}
+
+\para{Match rate.}
+For focal point tasks, the fraction of pairs that choose the same (normalized) response.
+
+\para{Complementarity score.}
+For role assignment tasks, the fraction of pairs that adopt non-overlapping roles.
+
+\para{Convention speed.}
+For the signaling game, the average number of rounds to reach consistent agreement, along with convergence rate and final accuracy.
+
+\para{Coordination improvement ratio.}
+The primary metric: $\text{ratio} = \text{treatment match rate} / \text{baseline match rate}$.
+A ratio of $2.0\times$ means coordination doubled relative to the untrained baseline.

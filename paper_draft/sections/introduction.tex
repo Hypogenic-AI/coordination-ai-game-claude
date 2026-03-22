@@ -1,0 +1,32 @@
+\section{Introduction}
+\label{sec:intro}
+
+When two strangers must coordinate---in an emergency, on a new project team, or across an online platform---they have no shared history to draw on.
+Yet coordination failures in ad-hoc teams are costly: miscommunication during disaster response, duplicated work in distributed organizations, and incompatible strategies in human-AI partnerships all stem from the inability to predict what an unfamiliar partner will do.
+What if a video game could prepare people to coordinate with \emph{anyone}, even someone they have never met?
+
+\para{The coordination transfer problem.}
+Schelling's theory of focal points~\citep{schelling1960strategy} and its experimental validation~\citep{mehta1994focal} show that strangers can coordinate by converging on culturally salient choices.
+Recent work on \zsc in multi-agent systems~\citep{hu2020otherplay, li2024tackling} has produced agents that coordinate with novel partners within a \emph{single} game.
+Separately, randomized controlled trials show that cooperative video games improve team cohesion and subsequent performance~\citep{keith2021team, greitemeyer2014prosocial}.
+However, a critical gap remains: no existing work tests whether \emph{individual} game experience transfers coordination skills to \emph{unrelated} tasks with \emph{new} partners.
+We call this challenge \emph{cross-domain zero-shot coordination}.
+
+\para{Our approach.}
+We design three coordination-training games with distinct emphases---focal point identification (\mindmatch), convention formation (\signalcraft), and a multi-skill combination (\syncminds, designed by AI)---and evaluate them against untrained and irrelevant-game baselines.
+We use \gptfour agents as proxies for human players, following the validation by \citet{riedl2026emergent} that large language model (LLM) agents exhibit emergent coordination with properties similar to human coordination.
+Each condition is tested on 31 coordination tasks spanning three domains: focal point selection (22 tasks), tacit role assignment (9 tasks), and convention formation (Lewis signaling game), with $N{=}50$ independent agent pairs per condition per task.
+
+\para{Key results.}
+Game training produces up to 2.9$\times$ improvement on individual coordination tasks and ${\sim}1.5\times$ mean improvement on hard focal point tasks.
+The AI-designed multi-skill game \syncminds achieves the most balanced improvement profile: 1.98$\times$ on hard role assignment (50.5\%$\to$100\%) and competitive performance across all task types.
+We uncover a fundamental \emph{convergence--differentiation tension}: focal point training teaches agents to converge on the same answer, which \emph{destroys} complementary role assignment (dropping to 0\% on some tasks).
+Only the multi-skill game, which explicitly trains both matching and dividing behaviors, resolves this tension.
+
+\para{Contributions.} We make the following contributions:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+\item We formalize the \emph{cross-domain zero-shot coordination} problem and design a 31-task evaluation suite spanning focal points, role assignment, and convention formation.
+\item We design and compare three coordination-training games, including an AI-designed multi-skill game that achieves 1.98$\times$ improvement on hard role assignment and 2.9$\times$ on individual focal point tasks.
+\item We identify the convergence--differentiation tension as a fundamental axis of coordination training: single-skill games produce narrow gains and can hurt complementary coordination, while multi-skill training resolves this tension.
+\item We demonstrate that LLM agents serve as effective proxies for studying coordination transfer, enabling controlled large-scale experiments that would require hundreds of human participants.
+\end{itemize}

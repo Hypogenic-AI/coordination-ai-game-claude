@@ -1,0 +1,42 @@
+\section{Related Work}
+\label{sec:related}
+
+\para{Focal points and tacit coordination.}
+\citet{schelling1960strategy} introduced the concept of focal points---solutions that people converge on without communication by exploiting shared cultural knowledge.
+\citet{mehta1994focal} provided experimental evidence that coordination rates roughly double when participants actively try to match, establishing focal point identification as a trainable skill.
+Our work builds on this foundation by asking whether game experience can further improve focal point coordination, particularly on tasks where cultural salience alone is insufficient.
+
+\para{Zero-shot coordination.}
+\ZSC addresses coordination with novel partners who were not part of the training process.
+\citet{hu2020otherplay} showed that self-play produces arbitrary conventions that fail with new partners, and proposed Other-Play to break symmetry-dependent strategies.
+\citet{li2024tackling} introduced COLE for robust human-AI coordination, and \citet{zhao2021maximum} proposed maximum-entropy population-based training to improve partner diversity.
+\citet{lauffer2023who} formalized the minimal knowledge required for optimal coordination.
+These methods all operate \emph{within} a single game environment.
+We study whether coordination skills transfer \emph{across} environments---from a training game to unrelated evaluation tasks.
+
+\para{Emergent communication and convention formation.}
+\citet{foerster2016learning} pioneered deep multi-agent reinforcement learning for emergent communication protocols.
+\citet{lipowska2018emergence} studied convention emergence in multi-agent naming games, finding that conventions form reliably with sufficient interaction.
+\citet{bullard2020exploring} found that emergent communication protocols are often brittle and do not transfer between agents, highlighting the difficulty of cross-domain transfer.
+Our convention formation experiments directly test whether game training accelerates Lewis signaling convergence in a new domain.
+
+\para{Cooperative games and coordination.}
+The Hanabi challenge~\citep{bard2020hanabi} requires Theory of Mind, convention formation, and perspective-taking---skills that are central to our coordination game designs.
+\citet{carroll2019utility} demonstrated in Overcooked-AI that agents trained via self-play develop conventions that humans cannot follow, motivating human-aware training.
+\citet{zhang2023proagent} built LLM-based agents that proactively anticipate partner needs, achieving strong zero-shot human-AI coordination.
+These works study coordination \emph{within} cooperative games; we study whether playing such games builds transferable coordination skills.
+
+\para{Games as coordination training.}
+\citet{keith2021team} conducted a randomized controlled trial showing that cooperative video games improve team cohesion and subsequent performance.
+\citet{greitemeyer2014prosocial} meta-analyzed 98 studies ($N{=}36{,}965$) showing prosocial games causally increase cooperative behavior.
+However, both lines of work study teams that train \emph{together}; our hypothesis requires that individuals train \emph{separately} and then coordinate with strangers.
+
+\para{LLM agents for coordination research.}
+\citet{riedl2026emergent} demonstrated that LLM agents exhibit emergent coordination in group tasks, with properties similar to human coordination.
+Prompting with personas and Theory of Mind steers agents toward goal-directed complementarity, creating Schelling-point convergence through mutual predictive modeling.
+We adopt LLM agents as human proxies, using in-context game experience to simulate the effects of gameplay on coordination behavior.
+
+\para{Cooperative AI.}
+\citet{dafoe2020open} defined the cooperative AI research agenda, identifying coordination with strangers as a key open problem.
+\citet{mirsky2022survey} surveyed ad-hoc teamwork research, providing a taxonomy of approaches for coordinating with unfamiliar teammates.
+Our work contributes to this agenda by demonstrating that targeted game training can meaningfully improve stranger coordination.

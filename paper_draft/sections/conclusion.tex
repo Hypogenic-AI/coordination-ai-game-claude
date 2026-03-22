@@ -1,0 +1,20 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We studied whether a video game can teach strangers to coordinate on unrelated tasks---the cross-domain zero-shot coordination problem.
+Using LLM agents as human proxies, we designed and compared three coordination-training games across a 31-task evaluation suite spanning focal points, role assignment, and convention formation.
+
+Our main findings are:
+(1) Game training produces up to 2.9$\times$ improvement on individual focal point tasks and ${\sim}1.5\times$ mean improvement on hard tasks.
+(2) The AI-designed multi-skill game \syncminds achieves the most balanced improvement, including 1.98$\times$ on hard role assignment (50.5\%$\to$100\%).
+(3) Single-skill training creates a convergence--differentiation tension: focal point training improves matching tasks but destroys complementary role assignment.
+Only multi-skill training resolves this tension.
+
+These results provide proof-of-concept that AI can design coordination-enhancing games with measurable cross-domain transfer.
+The key design principle is \emph{multi-skill training}: effective games must teach both when to match a partner and when to differentiate, giving players meta-cognitive awareness of which coordination strategy each situation demands.
+
+\para{Future work.}
+The most important next step is human validation.
+While LLM agents enable rapid, controlled experimentation, they coordinate through shared training data rather than lived experience.
+Human participant studies are needed to confirm that multi-skill game training produces real coordination gains.
+Beyond validation, we see three promising directions: (1) reinforcement learning for game design optimization, (2) cross-cultural coordination studies, and (3) interactive implementation of \syncminds as a playable game for deployment at scale.

@@ -1,0 +1,268 @@
+[
+  {
+    "title": "The Game of Poker Chips, Dominoes and Survival",
+    "arxiv_id": "1907.04206v2",
+    "year": "2019",
+    "authors": "Larry Goldstein",
+    "summary": "The Game of Poker Chips, Dominoes and Survival fosters team building and high level cooperation in large groups, and is a tool applied in management training exercises. Each player, initially given tw"
+  },
+  {
+    "title": "Efficient Reinforcement Learning for Zero-Shot Coordination in Evolving Games",
+    "arxiv_id": "2511.11083v3",
+    "year": "2025",
+    "authors": "Bingyu Hui, Lebin Yu, Quanming Yao et al.",
+    "summary": "Zero-shot coordination(ZSC), a key challenge in multi-agent game theory, has become a hot topic in reinforcement learning (RL) research recently, especially in complex evolving games. It focuses on th"
+  },
+  {
+    "title": "Inferring Group Intent as a Cooperative Game. An NLP-based Framework for Trajectory Analysis using Graph Transformer Neural Network",
+    "arxiv_id": "2510.23905v1",
+    "year": "2025",
+    "authors": "Yiming Zhang, Vikram Krishnamurthy, Shashwat Jain",
+    "summary": "This paper studies group target trajectory intent as the outcome of a cooperative game where the complex-spatio trajectories are modeled using an NLP-based generative model. In our framework, the grou"
+  },
+  {
+    "title": "Everyone Contributes! Incentivizing Strategic Cooperation in Multi-LLM Systems via Sequential Public Goods Games",
+    "arxiv_id": "2508.02076v1",
+    "year": "2025",
+    "authors": "Yunhao Liang, Yuan Qu, Jingyuan Yang et al.",
+    "summary": "Coordinating multiple large language models (LLMs) to solve complex tasks collaboratively poses a fundamental trade-off between the computation costs and collective performance compared with individua"
+  },
+  {
+    "title": "Open Ad Hoc Teamwork with Cooperative Game Theory",
+    "arxiv_id": "2402.15259v5",
+    "year": "2024",
+    "authors": "Jianhong Wang, Yang Li, Yuan Zhang et al.",
+    "summary": "Ad hoc teamwork poses a challenging problem, requiring the design of an agent to collaborate with teammates without prior coordination or joint training. Open ad hoc teamwork (OAHT) further complicate"
+  },
+  {
+    "title": "Improving Policies via Search in Cooperative Partially Observable Games",
+    "arxiv_id": "1912.02318v1",
+    "year": "2019",
+    "authors": "Adam Lerer, Hengyuan Hu, Jakob Foerster et al.",
+    "summary": "Recent superhuman results in games have largely been achieved in a variety of zero-sum settings, such as Go and Poker, in which agents need to compete against others. However, just like humans, real-w"
+  },
+  {
+    "title": "Learning Generalizable Risk-Sensitive Policies to Coordinate in Decentralized Multi-Agent General-Sum Games",
+    "arxiv_id": "2205.15859v3",
+    "year": "2022",
+    "authors": "Ziyi Liu, Xian Guo, Yongchun Fang",
+    "summary": "While various multi-agent reinforcement learning methods have been proposed in cooperative settings, few works investigate how self-interested learning agents achieve mutual coordination in decentrali"
+  },
+  {
+    "title": "Towards Few-shot Coordination: Revisiting Ad-hoc Teamplay Challenge In the Game of Hanabi",
+    "arxiv_id": "2308.10284v1",
+    "year": "2023",
+    "authors": "Hadi Nekoei, Xutong Zhao, Janarthanan Rajendran et al.",
+    "summary": "Cooperative Multi-agent Reinforcement Learning (MARL) algorithms with Zero-Shot Coordination (ZSC) have gained significant attention in recent years. ZSC refers to the ability of agents to coordinate "
+  },
+  {
+    "title": "PPO-ACT: Proximal Policy Optimization with Adversarial Curriculum Transfer for Spatial Public Goods Games",
+    "arxiv_id": "2505.04302v2",
+    "year": "2025",
+    "authors": "Zhaoqilin Yang, Chanchan Li, Xin Wang et al.",
+    "summary": "This study investigates cooperation evolution mechanisms in the spatial public goods game. A novel deep reinforcement learning framework, Proximal Policy Optimization with Adversarial Curriculum Trans"
+  },
+  {
+    "title": "Learning Adaptable Risk-Sensitive Policies to Coordinate in Multi-Agent General-Sum Games",
+    "arxiv_id": "2303.07850v1",
+    "year": "2023",
+    "authors": "Ziyi Liu, Yongchun Fang",
+    "summary": "In general-sum games, the interaction of self-interested learning agents commonly leads to socially worse outcomes, such as defect-defect in the iterated stag hunt (ISH). Previous works address this c"
+  },
+  {
+    "title": "Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications",
+    "arxiv_id": "2412.05449v1",
+    "year": "2024",
+    "authors": "Raphael Shu, Nilaksh Das, Michelle Yuan et al.",
+    "summary": "AI agents powered by large language models (LLMs) have shown strong capabilities in problem solving. Through combining many intelligent agents, multi-agent collaboration has emerged as a promising app"
+  },
+  {
+    "title": "Networked Multi-Agent Reinforcement Learning with Emergent Communication",
+    "arxiv_id": "2004.02780v2",
+    "year": "2020",
+    "authors": "Shubham Gupta, Rishi Hazra, Ambedkar Dukkipati",
+    "summary": "Multi-Agent Reinforcement Learning (MARL) methods find optimal policies for agents that operate in the presence of other learning agents. Central to achieving this is how the agents coordinate. One wa"
+  },
+  {
+    "title": "Emergent Coordination in Multi-Agent Language Models",
+    "arxiv_id": "2510.05174v3",
+    "year": "2025",
+    "authors": "Christoph Riedl",
+    "summary": "When are multi-agent LLM systems merely a collection of individual agents versus an integrated collective with higher-order structure? We introduce an information-theoretic framework to test -- in a p"
+  },
+  {
+    "title": "Revisiting Gossip Protocols: A Vision for Emergent Coordination in Agentic Multi-Agent Systems",
+    "arxiv_id": "2508.01531v1",
+    "year": "2025",
+    "authors": "Mansura Habiba, Nafiul I. Khan",
+    "summary": "As agentic platforms scale, agents are evolving beyond static roles and fixed toolchains, creating a growing need for flexible, decentralized coordination. Today's structured communication protocols ("
+  },
+  {
+    "title": "Contextual Knowledge Sharing in Multi-Agent Reinforcement Learning with Decentralized Communication and Coordination",
+    "arxiv_id": "2501.15695v1",
+    "year": "2025",
+    "authors": "Hung Du, Srikanth Thudumu, Hy Nguyen et al.",
+    "summary": "Decentralized Multi-Agent Reinforcement Learning (Dec-MARL) has emerged as a pivotal approach for addressing complex tasks in dynamic environments. Existing Multi-Agent Reinforcement Learning (MARL) m"
+  },
+  {
+    "title": "The Emergence of Adversarial Communication in Multi-Agent Reinforcement Learning",
+    "arxiv_id": "2008.02616v2",
+    "year": "2020",
+    "authors": "Jan Blumenkamp, Amanda Prorok",
+    "summary": "Many real-world problems require the coordination of multiple autonomous agents. Recent work has shown the promise of Graph Neural Networks (GNNs) to learn explicit communication strategies that enabl"
+  },
+  {
+    "title": "Communicating Plans, Not Percepts: Scalable Multi-Agent Coordination with Embodied World Models",
+    "arxiv_id": "2508.02912v4",
+    "year": "2025",
+    "authors": "Brennen A. Hill, Mant Koh En Wei, Thangavel Jishnuanandh",
+    "summary": "Robust coordination is critical for effective decision-making in multi-agent systems, especially under partial observability. A central question in Multi-Agent Reinforcement Learning (MARL) is whether"
+  },
+  {
+    "title": "Exploring Zero-Shot Emergent Communication in Embodied Multi-Agent Populations",
+    "arxiv_id": "2010.15896v2",
+    "year": "2020",
+    "authors": "Kalesha Bullard, Franziska Meier, Douwe Kiela et al.",
+    "summary": "Effective communication is an important skill for enabling information exchange and cooperation in multi-agent settings. Indeed, emergent communication is now a vibrant field of research, with common "
+  },
+  {
+    "title": "Decentralized Collective World Model for Emergent Communication and Coordination",
+    "arxiv_id": "2504.03353v3",
+    "year": "2025",
+    "authors": "Kentaro Nomura, Tatsuya Aoki, Tadahiro Taniguchi et al.",
+    "summary": "We propose a fully decentralized multi-agent world model that enables both symbol emergence for communication and coordinated behavior through temporal extension of collective predictive coding. Unlik"
+  },
+  {
+    "title": "A Gossip-Enhanced Communication Substrate for Agentic AI: Toward Decentralized Coordination in Large-Scale Multi-Agent Systems",
+    "arxiv_id": "2512.03285v1",
+    "year": "2025",
+    "authors": "Nafiul I. Khan, Mansura Habiba, Rafflesia Khan",
+    "summary": "As agentic platforms scale, agents are moving beyond fixed roles and predefined toolchains, creating an urgent need for flexible and decentralized coordination. Current structured communication protoc"
+  },
+  {
+    "title": "A Two-stage Game Framework to Secure Transmission in Two-Tier UAV Networks",
+    "arxiv_id": "2009.09887v1",
+    "year": "2020",
+    "authors": "Mengnian Xu, Yanjiao Chen, Wei Wang",
+    "summary": "The multi-UAV network is promising to extend conventional networks by providing broader coverage and better reliability. Nevertheless, the broadcast nature of wireless signals and the broader coverage"
+  },
+  {
+    "title": "Emergence of linguistic conventions in multi-agent reinforcement learning",
+    "arxiv_id": "1811.07208v1",
+    "year": "2018",
+    "authors": "Dorota Lipowska, Adam Lipowski",
+    "summary": "Recently, emergence of signaling conventions, among which language is a prime example, draws a considerable interdisciplinary interest ranging from game theory, to robotics to evolutionary linguistics"
+  },
+  {
+    "title": "DASH: Deception-Augmented Shared Mental Model for a Human-Machine Teaming System",
+    "arxiv_id": "2512.18616v1",
+    "year": "2025",
+    "authors": "Zelin Wan, Han Jun Yoon, Nithin Alluru et al.",
+    "summary": "We present DASH (Deception-Augmented Shared mental model for Human-machine teaming), a novel framework that enhances mission resilience by embedding proactive deception into Shared Mental Models (SMM)"
+  },
+  {
+    "title": "Unraveling Human-AI Teaming: A Review and Outlook",
+    "arxiv_id": "2504.05755v2",
+    "year": "2025",
+    "authors": "Bowen Lou, Tian Lu, T. S. Raghu et al.",
+    "summary": "Artificial Intelligence (AI) is advancing at an unprecedented pace, with clear potential to enhance decision-making and productivity. Yet, the collaborative decision-making process between humans and "
+  },
+  {
+    "title": "TeamMedAgents: Enhancing Medical Decision-Making of LLMs Through Structured Teamwork",
+    "arxiv_id": "2508.08115v2",
+    "year": "2025",
+    "authors": "Pranav Pushkar Mishra, Mohammad Arvan, Mohan Zalake",
+    "summary": "We present TeamMedAgents, a modular multi-agent framework that systematically translates evidence-based teamwork principles from organizational psychology into large language model collaboration for m"
+  },
+  {
+    "title": "Augmenting Teamwork through AI Agents as Spatial Collaborators",
+    "arxiv_id": "2503.09794v1",
+    "year": "2025",
+    "authors": "Mariana Fernandez-Espinosa, Diego Gomez-Zara",
+    "summary": "As Augmented Reality (AR) and Artificial Intelligence (AI) continue to converge, new opportunities emerge for AI agents to actively support human collaboration in immersive environments. While prior r"
+  },
+  {
+    "title": "Communication to Completion: Modeling Collaborative Workflows with Intelligent Multi-Agent Communication",
+    "arxiv_id": "2510.19995v2",
+    "year": "2025",
+    "authors": "Yiming Lu, Xun Wang, Simin Ma et al.",
+    "summary": "Multi-agent LLM systems have demonstrated impressive capabilities in complex collaborative tasks, yet most frameworks treat communication as instantaneous and free, overlooking a fundamental constrain"
+  },
+  {
+    "title": "Towards Cognitive Synergy in LLM-Based Multi-Agent Systems: Integrating Theory of Mind and Critical Evaluation",
+    "arxiv_id": "2507.21969v1",
+    "year": "2025",
+    "authors": "Adam Kostka, Jaros\u0142aw A. Chudziak",
+    "summary": "Recently, the field of Multi-Agent Systems (MAS) has gained popularity as researchers are trying to develop artificial intelligence capable of efficient collective reasoning. Agents based on Large Lan"
+  },
+  {
+    "title": "Tackling Cooperative Incompatibility for Zero-Shot Human-AI Coordination",
+    "arxiv_id": "2306.03034v2",
+    "year": "2023",
+    "authors": "Yang Li, Shao Zhang, Jichen Sun et al.",
+    "summary": "Securing coordination between AI agent and teammates (human players or AI agents) in contexts involving unfamiliar humans continues to pose a significant challenge in Zero-Shot Coordination. The issue"
+  },
+  {
+    "title": "LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination",
+    "arxiv_id": "2312.15224v2",
+    "year": "2023",
+    "authors": "Jijia Liu, Chao Yu, Jiaxuan Gao et al.",
+    "summary": "AI agents powered by Large Language Models (LLMs) have made significant advances, enabling them to assist humans in diverse complex tasks and leading to a revolution in human-AI coordination. LLM-powe"
+  },
+  {
+    "title": "Cooperative Open-ended Learning Framework for Zero-shot Coordination",
+    "arxiv_id": "2302.04831v4",
+    "year": "2023",
+    "authors": "Yang Li, Shao Zhang, Jichen Sun et al.",
+    "summary": "Zero-shot coordination in cooperative artificial intelligence (AI) remains a significant challenge, which means effectively coordinating with a wide range of unseen partners. Previous algorithms have "
+  },
+  {
+    "title": "PECAN: Leveraging Policy Ensemble for Context-Aware Zero-Shot Human-AI Coordination",
+    "arxiv_id": "2301.06387v4",
+    "year": "2023",
+    "authors": "Xingzhou Lou, Jiaxian Guo, Junge Zhang et al.",
+    "summary": "Zero-shot human-AI coordination holds the promise of collaborating with humans without human data. Prevailing methods try to train the ego agent with a population of partners via self-play. However, t"
+  },
+  {
+    "title": "Who Needs to Know? Minimal Knowledge for Optimal Coordination",
+    "arxiv_id": "2306.09309v2",
+    "year": "2023",
+    "authors": "Niklas Lauffer, Ameesh Shah, Micah Carroll et al.",
+    "summary": "To optimally coordinate with others in cooperative games, it is often crucial to have information about one's collaborators: successful driving requires understanding which side of the road to drive o"
+  },
+  {
+    "title": "Learning to Cooperate with Humans using Generative Agents",
+    "arxiv_id": "2411.13934v1",
+    "year": "2024",
+    "authors": "Yancheng Liang, Daphne Chen, Abhishek Gupta et al.",
+    "summary": "Training agents that can coordinate zero-shot with humans is a key mission in multi-agent reinforcement learning (MARL). Current algorithms focus on training simulated human partner policies which are"
+  },
+  {
+    "title": "Improving Human-AI Coordination through Online Adversarial Training and Generative Models",
+    "arxiv_id": "2504.15457v4",
+    "year": "2025",
+    "authors": "Paresh Chaudhary, Yancheng Liang, Daphne Chen et al.",
+    "summary": "Being able to cooperate with diverse humans is an important component of many economically valuable AI tasks, from household robotics to autonomous driving. However, generalizing to novel humans requi"
+  },
+  {
+    "title": "ProAgent: Building Proactive Cooperative Agents with Large Language Models",
+    "arxiv_id": "2308.11339v3",
+    "year": "2023",
+    "authors": "Ceyao Zhang, Kaijie Yang, Siyi Hu et al.",
+    "summary": "Building agents with adaptive behavior in cooperative tasks stands as a paramount goal in the realm of multi-agent systems. Current approaches to developing cooperative agents rely primarily on learni"
+  },
+  {
+    "title": "Probing Dec-POMDP Reasoning in Cooperative MARL",
+    "arxiv_id": "2602.20804v1",
+    "year": "2026",
+    "authors": "Kale-ab Tessera, Leonard Hinckeldey, Riccardo Zamboni et al.",
+    "summary": "Cooperative multi-agent reinforcement learning (MARL) is typically framed as a decentralised partially observable Markov decision process (Dec-POMDP), a setting whose hardness stems from two key chall"
+  },
+  {
+    "title": "Zero-Shot Coordination in Ad Hoc Teams with Generalized Policy Improvement and Difference Rewards",
+    "arxiv_id": "2510.16187v1",
+    "year": "2025",
+    "authors": "Rupal Nigam, Niket Parikh, Hamid Osooli et al.",
+    "summary": "Real-world multi-agent systems may require ad hoc teaming, where an agent must coordinate with other previously unseen teammates to solve a task in a zero-shot manner. Prior work often either selects "
+  }
+]
